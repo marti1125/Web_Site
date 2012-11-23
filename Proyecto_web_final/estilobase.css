@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+#fondo {
+	width: 780px;
+	margin: auto;
+	background-image: url(imagenes/bordes/bordes_r4_c1.png);
+	padding-right: 40px;
+	padding-left: 40px;
+}
+#fondo #contenidoplantilla #zonaizquierda {
+	color: #000;
+	float: left;
+	width: 180px;
+}
+
+#fondo #piedepagina {
+	background-color: #666;
+	padding: 10px;
+	clear: both;
+	color: #FFF;
+}
+h3 {
+	font-size: 16px;
+	font-weight: normal;
+	color: #F60;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FC0;
+}
+#fondo #indexcontenido #indexizquierda h3 {
+	color: #FF0;
+}
+.irarriba {
+	text-align: right;
+	background-image: url(imagenes/arriba.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.equipo {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 22px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #900;
+	border-bottom-color: #900;
+	text-align: center;
+	letter-spacing: 1em;
+	color: #039;
+}
+
+
+.nombrempresa {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	color: #39F;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #000;
+}
+.galeriaimagenes {
+	height: 160px;
+	width: 570px;
+	overflow: auto;
+}
+
+
+.columnasindex {
+	width: 160px;
+	float: left;
+	padding: 5px;
+}
+#fondo #indexcontenido #indexizquierda a:hover {
+	color: #0CF;
+}
+#fondo #contenidoplantilla #zonaderecha {
+	margin-left: 180px;
+}
+
+#fondo #indexcontenido #indexderecha .columnasindex a {
+	color: #FFF;
+}
+
+
+
+#fondo #encabezado {
+	float: left;
+	clear: none;
+}
+body {
+	background-color: #000;
+	margin: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	background-image: url(imagenes/fondo8.jpg);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+#fondo #indeximagen {
+	background-color: #FFF;
+	height: 310px;
+	clear: both;
+}
+#fondo #indexcontenido #indexizquierda {
+	background-color: #900;
+	width: 250px;
+	float: left;
+	padding: 10px;
+	color: #FFF;
+}
+#fondo #contenidoplantilla #zonaderecha #contenidopagina {
+	padding: 15px;
+	background-color: #FFC;
+}
+#bordesuperior {
+	background-image: url(imagenes/bordes/bordes_r1_c1.png);
+	margin: auto;
+	height: 163px;
+	width: 860px;
+}
+#bordeinferior {
+	background-image: url(imagenes/bordes/bordes_r5_c1.png);
+	margin: auto;
+	height: 138px;
+	width: 860px;
+}
+#divempresa {
+	background-color: #FC9;
+	padding: 10px;
+	height: 150px;
+	width: 500px;
+	overflow: auto;
+}
+#fondo #encabezado a {
+	background-image: url(imagenes/boton.png);
+	width: 100px;
+	margin-right: 5px;
+	float: left;
+	text-align: center;
+	display: block;
+	padding: 8px;
+	background-repeat: no-repeat;
+}
+#fondo #encabezado a:hover {
+	background-image: url(imagenes/boton_02.png);
+	background-repeat: no-repeat;
+}
+#fondo #encabezado #menuDesplegable {
+	float: right;
+	width: 170px;
+}
+.link {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	color: #C39;
+}
